@@ -17,7 +17,7 @@ public class Main {
         JsonReader jsonFile = new JsonReader(new FileReader("src/Data/authors.json"));
 
         //loads json reader with file reader
-        // AuthorPar[] authorJson = gsonFile.fromJson(jsonFile, AuthorPar.class);
+        AuthorPar[] authorJson = gsonFile.fromJson(jsonFile, AuthorPar.class);
 
        /* for (var element : authorJson){
             System.out.println(element);
